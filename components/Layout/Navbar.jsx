@@ -17,9 +17,9 @@ const Navbar = () => {
       </Link>
       <div className="flex gap-8">
         {/* <ThemeToggle/> */}
-        <Link href="/resume">
-          <Button>Coming soon...</Button>
-        </Link>
+
+        <Button>Coming soon...</Button>
+
         {/* <Button >Sign in</Button> */}
       </div>
     </div>
