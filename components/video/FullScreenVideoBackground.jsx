@@ -1,9 +1,11 @@
 "use client";
-import { Heading } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+
 import "./FullScreenVideoBackground.css";
 import React, { useEffect, useRef } from "react";
 import { Button } from "../ui/button";
 import Headings from "../Common/Headings";
+import Link from "next/link";
 
 const FullScreenVideoBackground = () => {
   const videoRef = useRef(null);
@@ -75,7 +77,11 @@ const FullScreenVideoBackground = () => {
               store your CRN&apos;s notes. Start sharing your notes, be a tutor
               and get paid.
             </p>
-            <Button onClick={() => scrollDownBy100vh()}>Know more...</Button>
+            <Link href="https://edu-prototype.vercel.app/">
+              <Button onClick={() => scrollDownBy100vh()}>
+                Access Study Send <ArrowRight />
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
