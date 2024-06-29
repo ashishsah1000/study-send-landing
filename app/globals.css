@@ -137,11 +137,11 @@ html {
     color: transparent;
     background: linear-gradient(
       120deg,
-      #ee0979,
-      #ff6a00,
-      #ee0979,
-      #ff6a00,
-      #ee0979
+      #367ce7,
+      #743791,
+      #9f3791,
+      #9e37d5,
+      #4e1fd4
     );
     background-clip: text;
     -webkit-background-clip: text;
@@ -169,7 +169,7 @@ html {
   }
 
   .bgGrad {
-    background-image: linear-gradient(to top left, #ee0979, #ff6a00);
+    background-image: linear-gradient(to top left, #367ce7, #4e1fd4);
   }
 
   .navbgGrad {
@@ -205,7 +205,7 @@ html {
 
   .textGrad {
     /* font-size: 40px; */
-    background: linear-gradient(to top left, #ee0979, #ff6a00);
+    background: linear-gradient(to top left, #367ce7, #4e1fd4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

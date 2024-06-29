@@ -36,8 +36,8 @@ const ResumeMakerSec = () => {
         <Headings head={"Study that matters"} />
         <h1 className="text-3xl sm:text-4xl font-bold ">
           A productive and trusted platform for your{" "}
-          <span className="textGrad">Courses</span> and{" "}
-          <span className="textGrad">CRNs</span>
+          <span className="text-[#367ce7]">Courses</span> and{" "}
+          <span className=" text-[#4e1fd4] ">CRNs</span>
         </h1>
         <p className="sm:text-lg text-secondary-foreground font-light">
           {" "}

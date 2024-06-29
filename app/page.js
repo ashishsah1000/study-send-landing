@@ -19,7 +19,7 @@ export default function Home() {
       <br></br>
       <ResumeMakerSec />
 
-      <Academics />
+      {/* <Academics /> */}
       {/* <SkillSec /> */}
       {/* <EventSec /> */}
       {/* <CtaSec /> */}
